@@ -3,7 +3,8 @@ import './LoginPage.css';
 
 const LoginPage = () => {
   return (
-    <div className="v7_60">
+    <div className="main-container">
+      <div className='first-container'>
       <div className="image-container">
         <div className="color-layer"></div>
         <div className="v8_74"></div>
@@ -11,10 +12,13 @@ const LoginPage = () => {
       <div className="v8_75"></div>
       <span className="v8_97">HR Management Platform</span>
       <span className="v8_98">
-        Manage all HR Operations from the comfort of your home.
+        Manage all <strong className="hr-text"> HR Operations </strong>from the comfort of your home.
       </span>
+      </div>
+      <div className="second-container">
       <div className="v8_99"></div>
       <div className="name"></div>
+
       <div className="v8_76">Welcome</div>
       <div className="v8_77">Register your account</div>
       <div className="v8_78">First Name</div>
@@ -39,6 +43,7 @@ const LoginPage = () => {
       />
       <div className="v8_83">
         Already have an account? Log In
+      </div>
       </div>
     </div>
   );
